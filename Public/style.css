@@ -28,12 +28,25 @@ img{
     height:20px;
 }
 
-
-
-footer{
-    text-align: center;
+.aclicked{
+  color:red;
+  text-decoration: none;
 }
 
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 10px;
+  text-align: center;
+  padding-bottom:3px;
+}
+@media only screen and(max-height:333px){
+  footer{
+    display: none;
+  }
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -88,9 +101,7 @@ h1,h4 {
     opacity: 1;
 }
 
-footer{
-    color: white;
-}
+
 nav {
     display: flex;
     justify-content: space-between;
