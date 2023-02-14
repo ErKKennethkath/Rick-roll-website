@@ -1,0 +1,149 @@
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.58)),
+        url("/bg2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    align-items: center;
+
+}
+
+video {
+    align-items: center;
+    max-width: 80%;
+    height: auto;
+    display: flexbox;
+    flex-direction: column;
+}
+
+section{
+    color: white;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+img{
+    width:40px;
+    height:20px;
+}
+
+
+
+footer{
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+  }
+
+  .navbar-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+  }
+  .bar {
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .bar:first-child {
+    transform-origin: top left;
+  }
+  
+  .bar:last-child {
+    transform-origin: bottom left;
+  }
+  
+p {
+    color: white;
+    text-align: center;
+}
+
+h1,h4 {
+    font-family: Tangerine, Arial, Helvetica, sans-serif;
+    text-shadow: 4px 4px 4px #aaa;
+    color: white;
+    text-align: center
+
+}
+
+.appearWhenVideoishalf {
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
+.appearWhenVideoishalf.show {
+    opacity: 1;
+}
+
+footer{
+    color: white;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    width: 45px;
+  }
+
+  .navbar-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .bar:first-child {
+    transform-origin: top left;
+  }
+  
+  .bar:last-child {
+    transform-origin: bottom left;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: -200px;
+    background-color: #f1f1f1;
+    overflow-x: hidden;
+    padding-top: 20px;
+    transition: left 0.2s ease-in-out;
+  }
+  
+  .sidenav a {
+    display: block;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    color: #818181;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
